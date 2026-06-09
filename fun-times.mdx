@@ -1,0 +1,69 @@
+---
+title: "Smart API Health Monitoring"
+---
+
+Smart API Health Monitoring
+
+## Overview
+
+Smart API Health Monitoring continuously checks your API endpoints and alerts you when issues are detected. Unlike traditional uptime monitoring, Smart API Health Monitoring validates actual API responses, ensuring your endpoints return the correct data and not just a successful HTTP status code.
+
+## Key Benefits
+
+- Detect API failures before customers report them
+
+- Validate response schemas and required fields
+
+- Monitor latency trends over time
+
+- Receive alerts via email, Slack, or Microsoft Teams
+
+- View endpoint health from a centralized dashboard
+
+## How It Works
+
+1. Select an API endpoint to monitor.
+
+2. Define expected response conditions, such as:
+
+   - HTTP status code
+
+   - Required JSON fields
+
+   - Response time thresholds
+
+   - Custom validation rules
+
+3. Configure monitoring frequency.
+
+4. Receive alerts when checks fail.
+
+## Example
+
+A customer monitors their /api/users endpoint and expects:
+
+- Status code: 200
+
+- Response time: Under 500ms
+
+- Required field: users
+
+If the endpoint returns a 200 status but omits the users field, Smart API Health Monitoring marks the check as failed and immediately sends an alert.
+
+## Dashboard
+
+The monitoring dashboard provides:
+
+- Endpoint health scores
+
+- Historical uptime trends
+
+- Response time charts
+
+- Recent incidents
+
+- Alert history
+
+## Availability
+
+Smart API Health Monitoring is available on Professional and Enterprise plans.
